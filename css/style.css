@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+   font-family: 'PT Sans', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+html{
+   font-size: 62.5%;
+}
+
+header .header-1{
+   background-color: #988264; //#8294a3
+}
+
+header .header-1 .flex{
+   padding: 1em 1em 1em 2em;
+}
+
+header .header-1 .flex p{
+   font-size: 2em;
+}
+
+header .header-1 .flex p a{
+   color: #fff;
+}
+
+header .header-1 .flex p a:hover{
+   font-weight: bold;
+}
+
+header .header-2{
+   background-color: #fff;
+   box-shadow: 0px 4px 0px black inset;
+}
+
+header .header-2 .flex{
+   padding: 1em 2em 1em 2em;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header .header-2 .flex .navbar{
+   margin-left: 7em;
+}
+
+header .header-2 .flex .navbar a{
+   margin: 0em 1em;
+   font-size: 2em;
+   color: #000;
+}
+
+header .header-2 .flex .navbar a:hover{
+   font-weight: bold;
+}
+
+header .header-2 .flex .icons > *{
+   font-size: 2.5em;
+   color: #000;
+   cursor: pointer;
+   margin-left: 1.5rem;
+}
+
+header .header-2 .flex .icons > *:hover{
+   font-weight: bold;
+}
+
+.logout-btn button{
+   color: #fff;
+   cursor: pointer;
+   font-size: 15px;
+   letter-spacing: 1px;
+   padding: 8px;
+   background-color: #de1f29;
+}
+
+.logout-btn button:hover{
+   font-weight: bold;
+}
+
+.home-img{
+   width: 100%;
+}
+
+.welcome1{
+   position: absolute;
+   top: 3em;
+   left: 0.5em;
+   font-size: 75px;
+   color: #fff;
+   width: 50%;
+}
+
+.welcome2{
+   position: absolute;
+   top: 20em;
+   left: 1.5em;
+   font-size: 25px;
+   color: #fff;
+   width: 50%;
+}
+
+.credit{
+   background-color: #988264;
+   font-size: 2em;
+   margin-top: 2em;
+   height: 3vh;
+   border-top: solid 1px black;
+   border-bottom: solid 1px black;
+}
+
+.credit span{
+   font-weight: bold;
+}
+
+.header-title{
+   background-color: #988264;
+   width: 100%;
+   height: 9vh;
+}
+
+.header-title .title{
+   text-align: center;
+   width: 10em;
+   height: 2.1em;
+   background-color: #de9f1f;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   margin-left: 41%;
+   border: white solid 2px;
+   letter-spacing: 2px;
+}
+
+.header-prod{
+   background-color: #988264;
+   width: 100%;
+   height: 14vh;
+}
+
+.header-prod .title{
+   text-align: center;
+   width: 9.5em;
+   height: 3em;
+   background-color: #de9f1f;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   margin-left: 41%;
+   border: white solid 2px;
+   letter-spacing: 2px;
+}
+
+.alert{
+   font-size: 15px;
+   padding: 20px;
+   background-color: #c42e2e;
+   color: white;
+}
+
+.closebtn {
+   margin-left: 15px;
+   color: white;
+   font-weight: bold;
+   float: right;
+   font-size: 22px;
+   line-height: 20px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.closebtn:hover {
+   color: black;
+}

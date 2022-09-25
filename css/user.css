@@ -1,0 +1,93 @@
+.profile-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2em;
+   height: 77vh;
+   background-color: #988264;
+}
+
+.profile-container .profile{
+   width: 70em;
+   border-radius: 0.5em;
+   background-color: #fff;
+   padding: 2em;
+   text-align: center;
+}
+
+.profile-container .profile h3{
+   font-size: 2.5em;
+   padding: 0.5em 0em;
+   color: #000;
+}
+
+.update-btn, .option-btn, .delete-btn{
+   display: block;
+   width: 100%;
+   border-radius: 0.5em;
+   color: #000;
+   font-size: 1.8em;
+   cursor: pointer;
+   padding:1em 3em;
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 1em;
+}
+
+.update-btn{
+   background-color: #677eff;
+}
+
+.option-btn{
+   background-color: orange;
+}
+
+.delete-btn{
+   background-color: red;
+}
+
+.update-btn:hover, .option-btn:hover, .delete-btn:hover{
+   background-color: orangered;
+}
+
+.update-profile-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2em;
+   height: 70vh;
+}
+
+.update-profile-container form{
+   width: 70em;
+   border-radius: 0.5em;
+   background-color: #fff;
+   padding:2em;
+   text-align: center;
+}
+
+.update-profile-container form .flex{
+   text-align: left;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.update-profile-container form .flex .inputBox{
+   width: 49%;
+}
+
+.update-profile-container form .flex .inputBox label{
+   font-size: 2em;
+   display: block;
+   padding-top: 1em;
+}
+
+.update-profile-container form .flex .inputBox .box{
+   width: 100%;
+   padding: 1.2em 1.4em;
+   border-radius: 0.5em;
+   font-size: 1.8em;
+   margin: 1em 0em;
+   background-color: orange;
+}

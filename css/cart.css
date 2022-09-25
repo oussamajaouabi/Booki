@@ -1,0 +1,25 @@
+.table{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table td{
+    font-weight: bold;
+	border-bottom: #f0f0f0 1px solid;
+	padding: 10px;
+}
+
+.cart .remove{
+    padding: 3px;
+    cursor: pointer;
+    padding: 0px;
+    background-color: white; 
+    color: red;
+}
+
+.cart .remove:hover{
+    border: red;
+	text-decoration: none;
+}

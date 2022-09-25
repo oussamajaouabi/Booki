@@ -1,0 +1,39 @@
+.product_wrapper {
+    float: left;
+    padding: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 31.71em;
+    height: 28em;
+    font-size: 15px;
+}
+
+.product_wrapper:hover {
+    background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+.product_wrapper .name{
+	font-weight: bold;
+}
+
+.product_wrapper .image img{
+    width: 140px;
+    height: 210px;
+    padding-bottom: 20px;
+}
+
+.product_wrapper .buy{
+    text-transform: uppercase;
+    background: #de9f1f;
+    border: 1px solid #de9f1f;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+
+.product_wrapper .buy:hover {
+	background: #c08816;
+    border-color: #c08816;
+}
