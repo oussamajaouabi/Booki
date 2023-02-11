@@ -1,3 +1,3 @@
 # Booki
 
-Booki : a book store website | mini-project ( HTML5, CSS3, PHP, MySQL )
+Booki : A Bookstore website | Mini-Project Using ( HTML5, CSS3, JS, PHP, MySQL )
